@@ -1,9 +1,8 @@
 {
 	"name": "Ubuntu",
-	"image": "jupyter/datascience-notebook",
+	"image": "jupyter/datascience-notebook:julia-1.9.3",
 	"features": {
-		"ghcr.io/devcontainers/features/common-utils:2": {},
-		"ghcr.io/eitsupi/devcontainer-features/julia:0": {}
+		"ghcr.io/devcontainers/features/common-utils:2": {}
 	},
 	"customizations": {
 		"vscode": {
