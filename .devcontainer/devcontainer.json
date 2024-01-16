@@ -1,6 +1,6 @@
 {
 	"name": "Ubuntu",
-	"image": "jupyter/r-notebook:notebook-6.5.4",
+	"image": "jupyter/datascience-notebook",
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:2": {},
 		"ghcr.io/eitsupi/devcontainer-features/julia:0": {}
@@ -9,7 +9,6 @@
 		"vscode": {
 			"extensions": [
 				"ms-python.python",
-				"REditorSupport.r",
 				"ms-toolsai.jupyter",
 				"ms-python.autopep8",
 				"julialang.language-julia"
